@@ -1,1 +1,1 @@
-Hello QB?
+hello QB
