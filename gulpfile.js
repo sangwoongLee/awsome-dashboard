@@ -57,4 +57,7 @@ gulp.task('watch', function() {
 });
 
 // Default Task
-gulp.task('default', ['browser-sync', 'sass','sass-minify']);
+// Default Task
+gulp.task('default', ['browser-sync']);
+gulp.task('build', ['sass','sass-minify']);
+
